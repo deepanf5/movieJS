@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/',(req,res) => {
 
-    console.log('Movie APi app is running..')
+    res.send('Movie APi app is running..')
 })
 
 
